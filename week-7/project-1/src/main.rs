@@ -81,7 +81,7 @@ fn cyli_vol(){
 }
 fn main(){
     let mut input1 = String::new();
-    println!("What would you like to calculate?(Area of rhombus, (1)Area of parallelogram, (2)Area of trapezium, (3) Area of a rhombus, (4)Volume of cube, (5)Volume of cylinder)");
+    println!("What would you like to calculate?((1)Area of parallelogram, (2)Area of trapezium, (3) Area of a rhombus, (4)Volume of cube, (5)Volume of cylinder)");
     io::stdin().read_line(&mut input1).expect("Failed to read input");
     let trimmed_input = input1.trim();
     match trimmed_input {

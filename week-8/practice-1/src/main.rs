@@ -1,0 +1,11 @@
+fn main() {
+    //using Vec::new()
+    let v : Vec<i64> = Vec::new();
+    //printing the size of a vector
+    println!("\nThe length of Vec::new is: {}",v.len());
+    //using macro
+    let v = vec!["Grace", "Effiong", "Basil", "Kareem", "Susan"];
+
+    //printing the size of the vector
+    println!("The length of the vec macro is: { }",v.len());
+}
