@@ -1,0 +1,6 @@
+Company: "dang"
+Shares: 18000000
+Liabilities: 10000000
+Founding Date: 1970 
+frac_leverage: 0.2777778
+
